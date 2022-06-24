@@ -43,13 +43,13 @@ defineProps({
             class="rounded-lg h-[30vh] w-full object-cover"
             :src="`src/assets/images/${image}.jpg`"
           />
-          <div class="bg-black w-[90%] h-9 absolute top-0 p-2 rounded-b-full">
+          <div class="bg-black w-[90%] h-8 absolute top-0 p-1 rounded-b-full">
             <p class="text-zinc-300 text-sm font-bold text-center">
               Designpgh Club
             </p>
           </div>
           <div
-            class="bg-black w-[65%] h-9 absolute bottom-0 p-2 rounded-t-full"
+            class="bg-black w-[65%] h-8 absolute bottom-0 p-1 rounded-t-full"
           >
             <p
               class="
