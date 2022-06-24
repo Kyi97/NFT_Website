@@ -4,10 +4,13 @@ defineProps({
     type: String,
     required: true,
   },
-  image:{
-      type: Image,
-      required: true
-  }
+  status: {
+    type: String,
+  },
+  image: {
+    type: Image,
+    required: true,
+  },
 });
 </script>
 
@@ -21,9 +24,25 @@ defineProps({
         <div class="h-32 bg-gray-100 rounded-lg"></div>
       </div>
     </div>
-
-    <h2 class="mt-4 text-gray-800 text-sm font-semibold line-clamp-1">
+    <p class="mt-2 text-gray-800 text-sm">{{ status }}</p>
+    <h2 class="mt-2 text-gray-800 text-sm font-semibold line-clamp-1">
       {{ price }}
     </h2>
+
+    <button
+      class="
+        mt-4
+        px-4
+        py-2
+        bg-indigo-500
+        hover:bg-indigo-600
+        text-white text-sm
+        font-medium
+        rounded-md
+        w-full
+      "
+    >
+      Bid Now
+    </button>
   </div>
 </template>
