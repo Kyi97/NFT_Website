@@ -1,10 +1,11 @@
 <script setup>
-import Test from "@/components/Test.vue";
+// import Test from "@/components/Test.vue";
+import NftArtItem from "@/components/NftArtItem.vue";
 </script>
 
 <template>
   <main>
-    <Test />
+    <NftArtItem />
   </main>
 </template>
 
