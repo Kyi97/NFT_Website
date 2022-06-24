@@ -16,6 +16,12 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 npm install
 ```
 
+## Install Tailwind
+
+```sh
+npm install -D tailwindcss postcss autoprefixer
+```
+
 ### Compile and Hot-Reload for Development
 
 ```sh
