@@ -1,6 +1,6 @@
 <script setup>
 function getImageUrl(image) {
-  return new URL(`../../assets/images/${image}.jpg`, import.meta.url).href;
+  return new URL(`../../assets/images/${image}.jpg`, import.meta.url).href
 }
 defineProps({
   price: {
@@ -13,7 +13,7 @@ defineProps({
   image: {
     type: String,
   },
-});
+})
 </script>
 
 <template>
@@ -23,7 +23,10 @@ defineProps({
   >
     <div>
       <div class="relative block h-full">
-        <img class="rounded-lg h-32 w-full" :src="getImageUrl(image)" />
+        <img
+          class="rounded-lg h-32 w-full object-cover"
+          :src="getImageUrl(image)"
+        />
       </div>
     </div>
     <p class="mt-2 text-gray-800 text-sm">{{ status }}</p>
@@ -33,16 +36,7 @@ defineProps({
       </h2>
 
       <button
-        class="
-          px-4
-          py-2
-          bg-gradient-to-r
-          from-red-500
-          to-pink-600
-          text-white text-sm
-          font-medium
-          rounded-md
-        "
+        class="px-4 py-2 bg-gradient-to-r from-red-500 to-pink-600 text-white text-sm font-medium rounded-md"
       >
         Bid Now
       </button>
