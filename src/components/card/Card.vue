@@ -1,7 +1,7 @@
 <script setup>
-function getImageUrl(image) {
-  return new URL(`../../assets/images/${image}.jpg`, import.meta.url).href
-}
+// function getImageUrl(image) {
+//   return new URL(`../../assets/images/${image}.jpg`, import.meta.url).href
+// }
 defineProps({
   price: {
     type: String,
@@ -25,7 +25,7 @@ defineProps({
       <div class="relative block h-full">
         <img
           class="rounded-lg h-32 w-full object-cover"
-          :src="getImageUrl(image)"
+          :src="`src/assets/images/${image}.jpg`"
         />
       </div>
     </div>
