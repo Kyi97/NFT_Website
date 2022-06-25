@@ -23,7 +23,7 @@ defineProps({
 <template>
   <div class="relative border-2 border-[#494948] rounded-xl ">
     <div
-      class="bg-[#494948] opacity-60 w-full h-full absolute blur-md bg-transparent"
+      class="bg-[#585857] opacity-50 w-full h-full absolute blur-md bg-transparent"
     ></div>
     <div
       class="
