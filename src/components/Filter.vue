@@ -18,9 +18,9 @@ let items = ref([
   <div class="mt-20">
     <!-- Header -->
     <div class="flex flex-col items-center space-y-4">
-      <div class="text-gray-400 text-xs">NFT MARKETPLACE</div>
+      <div class="text-zinc-400 text-xs">NFT MARKETPLACE</div>
       <div class="text-white text-3xl font-bold">Explore Nft Marketplace</div>
-      <div class="text-gray-400 text-xs max-w-sm text-center">
+      <div class="text-zinc-400 text-xs max-w-sm text-center">
         In Short Nfts Are Non-Fungible Tokens, Where Fungible Means Replaceable
         And Tokens Are Generally Assets
       </div>

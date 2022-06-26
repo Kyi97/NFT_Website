@@ -1,5 +1,6 @@
 <script setup>
 // import Test from "@/components/Test.vue";
+import Home from "@/components/Home.vue"
 import Payment from "@/components/Payment.vue"
 import Filter from "@/components/Filter.vue"
 import NftArtItem from '@/components/NftArtItem.vue'
@@ -10,6 +11,7 @@ import Vendor from '../components/Vendor.vue'
 
 <template>
   <main>
+    <Home class="px-7 md:px-10 lg:px-24"/>
     <Payment class="px-7"/>
     <Filter class="px-7"/>
     <NftArtItem class="px-7 md:px-10 lg:px-24" />
