@@ -22,7 +22,7 @@
               py-4
               px-2
               text-white
-              border-b-2 border-pink-500
+              border-b border-red-500
               font-semibold
             "
             >Explore</a
