@@ -1,20 +1,42 @@
 <template>
   <div
-    class="flex justify-between border-2 border-gray-700 rounded-lg px-5 py-3 bg-black mr-6 mt-5"
+    class="flex justify-between border-2 border-gray-700 rounded-lg px-4 py-2 bg-black mx-4 mt-6"
   >
     <div>
-      <img
-        src="https://images.hdqwalls.com/download/scarletwitch-doctor-strange-in-the-multiverse-of-madness-jd-240x240.jpg"
-        class="rounded-full w-14 h-14 object-cover"
-      />
+      <img :src="image" class="rounded-full w-10 h-10 object-cover" />
     </div>
-    <div class="w-[50%] space-y-2">
-      <div class="text-sm">Marvin McKimmich</div>
-      <div class="text-gray-400 text-xs">MOD Cretete</div>
+    <div class="w-[50%] space-y-1">
+      <div class="text-sm">{{ name }}</div>
+      <div class="text-gray-400 text-xs">{{ type }}</div>
     </div>
-    <div class="space-y-3 text-xs">
-      <div class="text-green-600">+399.4%</div>
-      <div class="text-red-600">-0.334%</div>
+    <div class="space-y-2 text-xs">
+      <div class="text-green-600">{{ income }}</div>
+      <div class="text-red-600">{{ outcome }}</div>
     </div>
   </div>
 </template>
+
+<script setup>
+defineProps({
+  name: {
+    type: String,
+    required: true,
+  },
+  type: {
+    type: String,
+    required: true,
+  },
+  image: {
+    type: String,
+    required: true,
+  },
+  income: {
+    type: String,
+    required: true,
+  },
+  outcome: {
+    type: String,
+    required: true,
+  },
+})
+</script>

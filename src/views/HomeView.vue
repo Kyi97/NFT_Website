@@ -8,9 +8,9 @@ import Vendor from '../components/Vendor.vue'
 
 <template>
   <main>
-    <NftArtItem class="px-24" />
-    <Vendor class="px-24" />
-    <Scary class="px-24" />
+    <NftArtItem class="px-7 md:px-10 lg:px-24" />
+    <Vendor class="px-7 md:px-10 lg:px-24" />
+    <Scary class="px-7 md:px-10 lg:px-24" />
     <Footer />
   </main>
 </template>

@@ -1,6 +1,7 @@
 <template>
-  <div class="grid grid-cols-2 mt-28">
-    <div class="w-3/5 space-y-6">
+  <div class="grid grid-cols-1 xl:grid-cols-2 mt-16">
+    <!-- Left -->
+    <div class="xl:w-3/5 space-y-6 mt-32">
       <div class="text-white text-4xl font-semibold">
         NFTs Are not The Future Cannot Be Scary
       </div>
@@ -19,7 +20,9 @@
         <Button :name="'Send'" :is_button_half_rounded="false" />
       </div>
     </div>
-    <div class="flex">
+
+    <!-- Right -->
+    <div class="block sm:flex mt-20 mx-auto">
       <Card
         v-for="item in items"
         :key="item.id"
