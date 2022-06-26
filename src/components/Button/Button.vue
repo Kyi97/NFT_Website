@@ -2,7 +2,7 @@
   <button
     :class="`${
       is_filter
-        ? 'text-zinc-300 bg-[#2c2c2b]  font-sm rounded-full text-sm  py-2.5  px-3'
+        ? 'text-zinc-400 bg-[#2c2c2b]  font-sm rounded-full text-sm  py-2.5  px-3'
         : `${
             is_button_half_rounded
               ? 'rounded-tl-xl rounded-br-xl'

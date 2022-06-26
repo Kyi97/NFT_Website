@@ -37,7 +37,7 @@ defineProps({
             :src="`src/assets/images/${image}.jpg`"
           />
           <div class="bg-black w-[95%] h-8 absolute top-0 p-1 rounded-b-full">
-            <p class="text-zinc-300 text-sm font-bold text-center">
+            <p class="text-zinc-400 text-sm font-bold text-center">
               Designpgh Club
             </p>
           </div>
