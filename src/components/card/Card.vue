@@ -22,7 +22,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="relative border-2 border-[#494948] rounded-xl">
+  <div class="relative border-2 border-[#494948] rounded-2xl mx-3">
     <div
       class="bg-[#585857] opacity-50 w-full h-full absolute blur-md bg-transparent"
     ></div>
@@ -33,7 +33,7 @@ defineProps({
       <div>
         <div class="relative h-full flex justify-center">
           <img
-            class="rounded-lg h-[30vh] w-full object-cover"
+            class="rounded-2xl h-60 w-full object-cover"
             :src="`src/assets/images/${image}.jpg`"
           />
           <div class="bg-black w-[95%] h-8 absolute top-0 p-1 rounded-b-full">

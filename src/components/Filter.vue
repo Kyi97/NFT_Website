@@ -1,5 +1,5 @@
 <script setup>
-import Button from "./button/Button.vue";
+import FilterButton from "@/components/FilterButton/FilterButton.vue";
 import { ref } from "vue";
 let items = ref([
   {
@@ -29,12 +29,11 @@ let items = ref([
     <!-- Filter Buttons -->
     <div class="flex justify-center mt-14">
       <div class="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-7 gap-3">
-        <Button
+        <FilterButton
           v-for="item in items"
           :key="item.id"
           :name="item.name"
-          :is_filter="true"
-        ></Button>
+        ></FilterButton>
       </div>
     </div>
   </div>

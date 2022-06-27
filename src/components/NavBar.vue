@@ -34,7 +34,7 @@
               px-2
               text-zinc-300
               font-semibold
-              hover:text-pink-500
+              hover:text-red-500
               transition
               duration-300
             "
@@ -47,7 +47,7 @@
               px-2
               text-zinc-300
               font-semibold
-              hover:text-pink-500
+              hover:text-red-500
               transition
               duration-300
             "
@@ -60,7 +60,7 @@
               px-2
               text-zinc-300
               font-semibold
-              hover:text-pink-500
+              hover:text-red-500
               transition
               duration-300
             "
