@@ -16,7 +16,7 @@ import Artist from '../components/Artist.vue'
     <Payment class="px-7" />
     <Filter class="px-7" />
     <NftArtItem class="px-7 md:px-10 lg:px-24" />
-    <Artist class="px-7 md:px-10 lg:px-24" />
+    <Artist class="px-16 md:px-20 lg:px-24" />
     <Vendor class="px-7 md:px-10 lg:px-24" />
     <Scary class="px-7 md:px-10 lg:px-24" />
     <Footer />

@@ -11,7 +11,7 @@
     </div>
 
     <!-- Card -->
-    <div class="grid grid-cols-4 mt-14">
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 mt-14">
       <ArtistCard />
       <ArtistCard />
       <ArtistCard />
