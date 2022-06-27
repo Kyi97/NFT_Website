@@ -45,7 +45,7 @@ let items = ref([
       >
         <img
           class="w-5 h-5 mr-2"
-          :src="`/src/assets/images/${item.image}`"
+          :src="`./src/assets/images/${item.image}`"
           alt=""
         />
         <span class="text-white text-sm font-bold">{{ item.name }}</span>
