@@ -1,5 +1,5 @@
 <script setup>
-import Button from "@/components/Button/Button.vue";
+import Button from '@/components/Button/Button.vue'
 </script>
 <template>
   <div class="grid grid-cols-1 xl:grid-cols-2 space-x-14">
@@ -10,26 +10,14 @@ import Button from "@/components/Button/Button.vue";
         Interesting Digital<br />
         In The
         <span
-          class="
-            text-transparent
-            bg-clip-text bg-gradient-to-r
-            from-red-500
-            to-pink-600
-            font-bold
-          "
+          class="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-pink-600 font-bold"
           >World</span
         >
       </div>
       <div class="text-zinc-400 text-sm font-semibold">
         In short NFTs are
         <span
-          class="
-            text-transparent
-            bg-clip-text bg-gradient-to-r
-            from-red-500
-            to-pink-600
-            font-bold
-          "
+          class="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-pink-600 font-bold"
           >Non-fungible tokens</span
         >, where fungible means replaceable are generally assets soon you will
         be able to enjoy the best way to monetize your Christmas NFTs are coming
@@ -73,9 +61,8 @@ import Button from "@/components/Button/Button.vue";
     <div class="flex mx-auto mt-16">
       <img
         class="rounded-lg h-96 w-full object-cover"
-        src="src/assets/images/four.jpg"
+        src="/src/assets/images/four.jpg"
       />
     </div>
   </div>
 </template>
-

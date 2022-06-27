@@ -5,7 +5,7 @@
     <div class="sm:col-span-2 lg:col-span-3 pr-7 space-y-3 mb-14">
       <div class="flex text-lg text-white">
         <img
-          src="src/assets/images/wk.jpg"
+          src="/src/assets/images/wk.jpg"
           alt="Logo"
           class="h-7 w-8 mr-2 rounded-lg"
         />

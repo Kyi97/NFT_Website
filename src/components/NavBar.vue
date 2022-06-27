@@ -1,5 +1,4 @@
-<script setup>
-</script>
+<script setup></script>
 <template>
   <nav class="bg-black shadow-lg">
     <div class="max-w-6xl mx-auto px-4">
@@ -8,7 +7,7 @@
         <div>
           <a href="#" class="flex items-center py-4 px-2">
             <img
-              src="src/assets/images/wk.jpg"
+              src="/src/assets/images/wk.jpg"
               alt="Logo"
               class="h-8 w-8 mr-2 rounded-full"
             />
@@ -18,52 +17,22 @@
         <div class="hidden md:flex items-center space-x-5">
           <a
             href=""
-            class="
-              py-4
-              px-2
-              text-white
-              border-b border-red-500
-              font-semibold
-            "
+            class="py-4 px-2 text-white border-b border-red-500 font-semibold"
             >Explore</a
           >
           <a
             href=""
-            class="
-              py-4
-              px-2
-              text-zinc-300
-              font-semibold
-              hover:text-red-500
-              transition
-              duration-300
-            "
+            class="py-4 px-2 text-zinc-300 font-semibold hover:text-red-500 transition duration-300"
             >Collections</a
           >
           <a
             href=""
-            class="
-              py-4
-              px-2
-              text-zinc-300
-              font-semibold
-              hover:text-red-500
-              transition
-              duration-300
-            "
+            class="py-4 px-2 text-zinc-300 font-semibold hover:text-red-500 transition duration-300"
             >Community</a
           >
           <a
             href=""
-            class="
-              py-4
-              px-2
-              text-zinc-300
-              font-semibold
-              hover:text-red-500
-              transition
-              duration-300
-            "
+            class="py-4 px-2 text-zinc-300 font-semibold hover:text-red-500 transition duration-300"
             >Contact Us</a
           >
         </div>
