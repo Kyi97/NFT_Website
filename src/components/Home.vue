@@ -2,7 +2,7 @@
 import Button from '@/components/Button/Button.vue'
 </script>
 <template>
-  <div class="grid grid-cols-1 xl:grid-cols-2 space-x-14">
+  <div class="grid grid-cols-1 xl:grid-cols-2">
     <div class="space-y-6 mt-20">
       <div class="text-zinc-400 text-sm font-semibold">NFT MARKET PLACE!</div>
       <div class="text-white text-5xl leading-snug">

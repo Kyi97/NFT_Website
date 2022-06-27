@@ -37,7 +37,7 @@ let items = ref([
 </script>
 <template>
   <div class="flex justify-center mt-14">
-    <div class="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-20">
+    <div class="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-6 gap-20">
       <div
         v-for="item in items"
         :key="item.id"
