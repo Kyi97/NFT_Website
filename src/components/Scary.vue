@@ -51,14 +51,14 @@ let items = ref([
     price: '1.26 ETH',
     sub_price: '$15253.13',
     status: 'Current Price',
-    image: 'one',
+    image: './src/assets/images/one.jpg',
   },
   {
     id: 1,
     price: '1.27 ETH',
     sub_price: '$15253.13',
     status: 'Current Price',
-    image: 'two',
+    image: './src/assets/images/two.jpg',
   },
 ])
 

@@ -10,7 +10,7 @@ import Button from '@/components/Button/Button.vue'
         Interesting Digital<br />
         In The
         <span
-          class="border-b-4 border-b-red-500 text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-pink-600 font-bold"
+          class="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-pink-600 font-bold"
           >World</span
         >
       </div>
@@ -57,10 +57,9 @@ import Button from '@/components/Button/Button.vue'
         </div>
       </div>
     </div>
-
     <div class="flex mx-auto mt-16">
       <img
-        class="rounded-lg h-96 w-full object-cover"
+        class="rounded-lg aspect-[3/3] w-full object-cover"
         src="/src/assets/images/four.jpg"
       />
     </div>
