@@ -8,57 +8,62 @@ let items = ref([
     price: '1.26 ETH',
     sub_price: '$15253.13',
     status: 'Current Price',
-    image: './src/assets/images/one.jpg',
+    image: (
+      <img
+        class="rounded-xl w-full aspect-[3/3] object-cover"
+        src="./src/assets/images/one.jpg"
+      />
+    ),
   },
-  {
-    id: 1,
-    price: '1.27 ETH',
-    sub_price: '$15253.13',
-    status: 'Current Price',
-    image: './src/assets/images/two.jpg',
-  },
-  {
-    id: 2,
-    price: '1.28 ETH',
-    sub_price: '$15253.13',
-    status: 'Current Price',
-    image: './src/assets/images/three.jpg',
-  },
-  {
-    id: 3,
-    price: '1.29 ETH',
-    sub_price: '$15253.13',
-    status: 'Current Price',
-    image: './src/assets/images/four.jpg',
-  },
-  {
-    id: 4,
-    price: '1.26 ETH',
-    sub_price: '$15253.13',
-    status: 'Current Price',
-    image: './src/assets/images/five.jpg',
-  },
-  {
-    id: 5,
-    price: '1.27 ETH',
-    sub_price: '$15253.13',
-    status: 'Current Price',
-    image: './src/assets/images/six.jpg',
-  },
-  {
-    id: 6,
-    price: '1.28 ETH',
-    sub_price: '$15253.13',
-    status: 'Current Price',
-    image: './src/assets/images/seven.jpg',
-  },
-  {
-    id: 7,
-    price: '1.29 ETH',
-    sub_price: '$15253.13',
-    status: 'Current Price',
-    image: './src/assets/images/eight.jpg',
-  },
+  // {
+  //   id: 1,
+  //   price: '1.27 ETH',
+  //   sub_price: '$15253.13',
+  //   status: 'Current Price',
+  //   image: './src/assets/images/two.jpg',
+  // },
+  // {
+  //   id: 2,
+  //   price: '1.28 ETH',
+  //   sub_price: '$15253.13',
+  //   status: 'Current Price',
+  //   image: './src/assets/images/three.jpg',
+  // },
+  // {
+  //   id: 3,
+  //   price: '1.29 ETH',
+  //   sub_price: '$15253.13',
+  //   status: 'Current Price',
+  //   image: './src/assets/images/four.jpg',
+  // },
+  // {
+  //   id: 4,
+  //   price: '1.26 ETH',
+  //   sub_price: '$15253.13',
+  //   status: 'Current Price',
+  //   image: './src/assets/images/five.jpg',
+  // },
+  // {
+  //   id: 5,
+  //   price: '1.27 ETH',
+  //   sub_price: '$15253.13',
+  //   status: 'Current Price',
+  //   image: './src/assets/images/six.jpg',
+  // },
+  // {
+  //   id: 6,
+  //   price: '1.28 ETH',
+  //   sub_price: '$15253.13',
+  //   status: 'Current Price',
+  //   image: './src/assets/images/seven.jpg',
+  // },
+  // {
+  //   id: 7,
+  //   price: '1.29 ETH',
+  //   sub_price: '$15253.13',
+  //   status: 'Current Price',
+  //   image: './src/assets/images/eight.jpg',
+  // },
 ])
 </script>
 <template>
