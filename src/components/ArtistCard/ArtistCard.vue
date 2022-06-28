@@ -11,7 +11,7 @@
         <div class="relative h-full flex justify-center">
           <img
             class="rounded-xl w-full aspect-[4/2] object-cover object-top"
-            src="https://images.hdqwalls.com/download/spongebob-squarepants-4k-2020-4s-240x240.jpg"
+            :src="image"
           />
           <div class="absolute w-[88%]">
             <div
@@ -24,22 +24,22 @@
               <p
                 class="absolute text-zinc-300 text-sm font-bold text-center top-[.2rem]"
               >
-                Designpgh Club
+                {{ header }}
               </p>
             </div>
           </div>
           <div class="h-8 absolute bottom-0 p-1">
             <img
               class="rounded-full w-14 border-[3px] border-black"
-              src="https://images.hdqwalls.com/download/what-if-vision-4k-j3-240x240.jpg"
+              :src="creator_image"
             />
           </div>
         </div>
       </div>
       <div class="flex flex-col items-center mt-9">
-        <div class="text-white font-semibold">Created By NFT</div>
+        <div class="text-white font-semibold">Created By {{ created_by }}</div>
         <div class="flex items-center pb-3">
-          <div class="text-pink-600 text-base">12.3K &nbsp;</div>
+          <div class="text-pink-600 text-base">{{ price }} &nbsp;</div>
           <div class="text-gray-300 text-sm">Artwork</div>
         </div>
         <Button
@@ -63,4 +63,26 @@
 
 <script setup>
 import Button from '../Button/Button.vue'
+defineProps({
+  header: {
+    type: String,
+    required: true,
+  },
+  created_by: {
+    type: String,
+    required: true,
+  },
+  price: {
+    type: String,
+    required: true,
+  },
+  image: {
+    type: String,
+    required: true,
+  },
+  creator_image: {
+    type: String,
+    required: true,
+  },
+})
 </script>
