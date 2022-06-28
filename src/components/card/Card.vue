@@ -1,8 +1,8 @@
 <script setup>
 import Button from '@/components/Button/Button.vue'
-// function getImageUrl(image) {
-//   return new URL(`../../assets/images/${image}.jpg`, import.meta.url).href
-// }
+function getImageUrl(image) {
+  return new URL(`../../assets/images/${image}.jpg`, import.meta.url).href
+}
 defineProps({
   price: {
     type: String,
@@ -34,8 +34,7 @@ defineProps({
         <div class="relative h-full flex justify-center">
           <img
             class="rounded-xl w-full aspect-[3/3] object-cover"
-            :src="'./src/assets/images/' + image + '.jpg'"
-            :alt="image"
+            :src="getImageUrl(image)"
           />
           <div class="absolute w-[88%]">
             <div
