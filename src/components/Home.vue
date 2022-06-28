@@ -10,7 +10,7 @@ import Button from '@/components/Button/Button.vue'
         Interesting Digital<br />
         In The
         <span
-          class="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-pink-600 font-bold"
+          class="border-b-4 border-b-red-500 text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-pink-600 font-bold"
           >World</span
         >
       </div>
