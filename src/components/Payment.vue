@@ -1,7 +1,9 @@
 <script setup>
 import Card from './card/Card.vue'
 import { ref } from 'vue'
-
+function getImageUrl(image) {
+  return new URL(`../../assets/images/${image}`, import.meta.url).href
+}
 let items = ref([
   {
     id: 0,
@@ -43,11 +45,7 @@ let items = ref([
         :key="item.id"
         class="flex grayscale opacity-60"
       >
-        <img
-          class="w-5 h-5 mr-2"
-          :src="`/src/assets/images/${item.image}`"
-          alt=""
-        />
+        <img class="w-5 h-5 mr-2" :src="getImageUrl(item.image)" alt="" />
         <span class="text-white text-sm font-bold">{{ item.name }}</span>
       </div>
     </div>
