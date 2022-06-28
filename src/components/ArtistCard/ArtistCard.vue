@@ -10,8 +10,8 @@
       <div>
         <div class="relative h-full flex justify-center">
           <img
-            class="rounded-xl w-full aspect-[4/2] object-cover"
-            src="https://images.hdqwalls.com/download/mandalorian-fan-art-5k-fq-240x240.jpg"
+            class="rounded-xl w-full aspect-[4/2] object-cover object-top"
+            src="https://images.hdqwalls.com/download/spongebob-squarepants-4k-2020-4s-240x240.jpg"
           />
           <div class="absolute w-[88%]">
             <div
