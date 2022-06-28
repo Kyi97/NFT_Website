@@ -4,9 +4,9 @@
       hover:from-red-600 hover:to-pink-700 hover:scale-105 ease-in duration-100 transition cursor-pointer
       active:from-red-500 active:to-pink-600
        ${is_button_half_rounded ? 'rounded-tl-xl rounded-br-xl' : 'rounded-md'}
-       ${width ? `w-[${width}]` : ''}
-       ${padding_y ? `py-[${padding_y}]` : 'py-2'}
-       ${padding_x ? `px-[${padding_x}]` : 'px-4'}
+       ${width ? get_width(width) : ''}
+       ${padding_y ? get_padding_y(padding_y) : 'py-2'}
+       ${padding_x ? get_padding_x(padding_x) : 'px-4'}
        `"
   >
     {{ name }}
@@ -14,6 +14,15 @@
 </template>
 
 <script setup>
+function get_width(v) {
+  return `w-[${v}]`
+}
+function get_padding_x(v) {
+  return `px-[${v}]`
+}
+function get_padding_y(v) {
+  return `py-[${v}]`
+}
 defineProps({
   name: {
     type: String,
