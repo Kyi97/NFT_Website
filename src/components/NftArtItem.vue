@@ -8,12 +8,7 @@ let items = ref([
     price: '1.26 ETH',
     sub_price: '$15253.13',
     status: 'Current Price',
-    image: (
-      <img
-        class="rounded-xl w-full aspect-[3/3] object-cover"
-        src="./src/assets/images/one.jpg"
-      />
-    ),
+    image: 'one',
   },
   // {
   //   id: 1,

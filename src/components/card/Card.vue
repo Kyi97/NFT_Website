@@ -32,7 +32,11 @@ defineProps({
     >
       <div>
         <div class="relative h-full flex justify-center">
-          {{ image }}
+          <img
+            class="rounded-xl w-full aspect-[3/3] object-cover"
+            :src="'./src/assets/images/' + image + '.jpg'"
+            :alt="image"
+          />
           <div class="absolute w-[88%]">
             <div
               class="relative w-full h-[1.8rem] flex justify-center items-center"
